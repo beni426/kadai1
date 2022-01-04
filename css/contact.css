@@ -1,0 +1,65 @@
+.contact tr{
+  height:7rem;
+}
+
+.contact th{
+ width:150px;
+ padding-right: 10px;
+ text-align: right;
+ font-size: 13px;
+
+}
+ul.top_menu{
+  float: right;
+
+}
+
+#formchange {
+  background-color: #FCECEC
+
+}
+#formchange :hover{
+   color: #4D4D4D;
+}
+
+
+input[type="text"],input[type="email"]{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  width: 480px;
+  font-size: 15px;
+}
+textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 3rem;
+  width: 480px;
+  font-size: 10px;
+}
+
+input[type="submit"]{
+  background: #008B8B;
+  border: none;
+  color: white;
+  font-size:3rem;
+  font-weight:bold;
+  padding: 10px;
+  margin: 0 5px;
+  margin-left: 200px;
+
+}
+input[type="submit"]:hover {
+  opacity: 0.5;
+
+}
+.footer{
+  background-color: #4D4D4D;
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: table;
+
+}
